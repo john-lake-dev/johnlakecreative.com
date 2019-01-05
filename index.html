@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" initial-scale="1">
+  <title>John Lake | Web Developer</title>
+  <!-- bootstrap stylesheet-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- my styles-->
+  <link rel="stylesheet" href="styles.css" />
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu|Poppins:400,700|Roboto:400,700" rel="stylesheet">
+  <!--FontAwesome (icons & fonts)-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="favicon">
+  <!-- jQuery, Bootstrap script, popper, and min-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Nav Bar -->
+  <section id="nav">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" id="nav-logo" href="#nav">JL</a></li>
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-ellipsis-v" style></i></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item nav-item-about"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item nav-item-portfolio"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item nav-item-contact"><a class="nav-link" href="#footer">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+  </section>
+
+  <!-- Title -->
+  <section id="title">
+    <div class="container-fluid">
+      <h2 class="intro-text">
+        <span class= "intro">My name is John Lake. I’m a front-end Web Developer and Digital&nbsp;Producer living in Portland, ME.</span>
+      </h2>
+    </div>
+    <div>
+        <a href="#about"><i class="fas fa-chevron-down icon4x icon-lite"></i></a>
+    </div>
+  </section>
+
+
+    <!-- About -->
+
+    <section id="about" class="white section">
+      <div class="container-fluid">
+        <div class="row about-row">
+          <div class="col-lg-6">
+            <img class="about-image" src="images/johnny_kingston.JPG" alt="John Lake">
+          </div>
+          <div class= "about-text col-lg-6">
+            <h5>I’m fascinated by how things work -- I enjoy the process almost as much as a perfect finished product.</h5>
+            <h5>I’ve worked as a Project Manager and Digital Producer for advertising & marketing agencies in New York City, and I bring that experience into both my personal & professional life.</h5>
+            <h5>In my free time, I enjoy photography, hiking, cycling, and I also produce a podcast.</h5>
+            <h5>Please reach out with any questions, or to schedule a phone call.</h5>
+          </div>
+        </div>
+      </div>
+      <div class= "chevron-down">
+        <a href= "#portfolio"><i class="fas fa-chevron-down icon-dark"></i></a>
+      </div>
+  </section>
+
+
+  <!-- Portfolio -->
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h3 class="text-center text-uppercase text-secondary mb-0"><span class="portfolio-section-header">Current Projects</span></h3>
+      <div class="row row-portfolio">
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item-dark d-block mx-auto" href="tindog.html">
+            <div class="portfolio-card-container">
+              <h4 class="portfolio-item-header">"TinDog"</h4>
+              <h6>a spoof website designed and built in the model of a promotional website for an app/product/service.</h6>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item-lite d-block mx-auto" href="simonsays.html">
+            <div class="portfolio-card-container">
+              <h4 class="portfolio-item-header">"Simon Says"</h4>
+              <h6>a browser-based game programmed with JavaScript & jQuery</h6>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item-dark d-block mx-auto" href="drumkit.html">
+            <div class="portfolio-card-container">
+              <h4 class="portfolio-item-header">"Virtual Drumkit"</h4>
+              <h6>a 7-piece drum kit, built with Javascript, jQuery, and CSS manipulation</h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <h3 class="text-center text-uppercase text-secondary mb-0"><span class="portfolio-section-header">Web Portfolio</span></h3>
+      <div class="row row-portfolio">
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item-lite d-block mx-auto" href="https://www.abraxanepro.com">
+            <div class="portfolio-card-container">
+              <h4 class="portfolio-item-header">AbraxanePro.com</h4>
+              <h6>Oncological Drug Brand Website</br>--</br>Digital Producer & Project Manager</h6>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item-dark d-block mx-auto" href="https://www.mblm.com">
+            <div class="portfolio-card-container">
+              <h4 class="portfolio-item-header">MBLM.com</h4>
+              <h6>Branding Agency Website</br>--</br>MBLM Project Manager & QA Lead</h6>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item-lite d-block mx-auto" href="https://www.sundaysky.com">
+            <div class="portfolio-card-container">
+              <h4 class="portfolio-item-header">SundaySky.com</h4>
+              <h6>Video Marketing Company, Promotional/Informational Portal</br>--</br>Client Account Manager</h6>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a href="#footer"><i class="fas fa-chevron-down icon-lite"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="white-section">
+    <div class="footer-content container-fluid">
+      <div class="contact-arrows">
+        <i class="fas fa-chevron-down icon-lite"></i><i class="fas fa-chevron-down icon-lite"></i><i class="fas fa-chevron-down icon-lite"></i>
+      </div>
+      <div class="social-buttons">
+        <a href="https://www.instagram.com/juanito_lago"><i class="fab fa-instagram social-icon"></i></a>
+        <a href="mailto:johnlakecreative@gmail.com"><i class="fas fa-envelope social-icon"></i></a>
+        <a href="https://itunes.apple.com/us/podcast/kicking-streaming-podcast/id1339423731?mt=2"><i class="fas fa-podcast social-icon"></i></a>
+      </div>
+        <p class= "copyright">© John Lake 2018</p>
+    </div>
+
+
+  </footer>
+<script src="index.js"></script>
+</body>
+</html>
