@@ -56,6 +56,11 @@ body {
   background-color: transparent;
 }
 
+/* button.navbar-toggler{
+  margin-right: 5px;
+  border: 0px;
+} */
+
 .scrolled-nav-white{
   background-color: #fff;
 }
@@ -285,7 +290,8 @@ h3{
 
 @media (max-width: 415px) {
   #portfolio{
-    background:url("images/wburg_waterfront.jpg") 70% 50% no-repeat fixed;
+    background:url("") 70% 50% no-repeat fixed;
+    background-color: #afadaa;
     opacity: 1.0;
     filter: alpha(opacity=100);
     background-size: cover;
@@ -315,6 +321,11 @@ h3{
 
 .contact-arrows{
   display: block;
+}
+
+.newsletterCTA{
+  color: #fff;
+  text-decoration: underline;
 }
 
 .social-icon {
